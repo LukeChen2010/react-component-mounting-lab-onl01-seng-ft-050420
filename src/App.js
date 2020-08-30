@@ -15,16 +15,6 @@ class App extends Component {
   componentDidMount() {
     this.handleAddTimer()
   }
-  
-  handleAddTimer = () => {
-    this.setState(prevState => ({
-      timerIDs: [...prevState.timerIDs, Math.floor(Math.random()*1000)]
-    }))
-  }
-
-
-
-
 
 
   // No need to modify anything in render or the class methods below
